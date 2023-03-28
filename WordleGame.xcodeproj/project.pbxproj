@@ -13,6 +13,9 @@
 		8AC248C52977209000020E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC248C32977209000020E81 /* Main.storyboard */; };
 		8AC248C72977209100020E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC248C62977209100020E81 /* Assets.xcassets */; };
 		8AC248CA2977209100020E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC248C82977209100020E81 /* LaunchScreen.storyboard */; };
+		8AC248D52977218100020E81 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC248D42977218100020E81 /* KeyboardViewController.swift */; };
+		8AC248D72977252500020E81 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC248D62977252500020E81 /* BoardViewController.swift */; };
+		8AC248D92977361400020E81 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC248D82977361400020E81 /* KeyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8AC248C62977209100020E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AC248C92977209100020E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AC248CB2977209100020E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC248D42977218100020E81 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		8AC248D62977252500020E81 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		8AC248D82977361400020E81 /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		8AC248BC2977209000020E81 /* WordleGame */ = {
 			isa = PBXGroup;
 			children = (
-				8AC248BD2977209000020E81 /* AppDelegate.swift */,
-				8AC248BF2977209000020E81 /* SceneDelegate.swift */,
-				8AC248C12977209000020E81 /* ViewController.swift */,
-				8AC248C32977209000020E81 /* Main.storyboard */,
-				8AC248C62977209100020E81 /* Assets.xcassets */,
-				8AC248C82977209100020E81 /* LaunchScreen.storyboard */,
+				8AC248D32977213400020E81 /* Main */,
+				8AC248D2297720ED00020E81 /* Other */,
 				8AC248CB2977209100020E81 /* Info.plist */,
 			);
 			path = WordleGame;
+			sourceTree = "<group>";
+		};
+		8AC248D2297720ED00020E81 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8AC248BD2977209000020E81 /* AppDelegate.swift */,
+				8AC248BF2977209000020E81 /* SceneDelegate.swift */,
+				8AC248C32977209000020E81 /* Main.storyboard */,
+				8AC248C62977209100020E81 /* Assets.xcassets */,
+				8AC248C82977209100020E81 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8AC248D32977213400020E81 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8AC248C12977209000020E81 /* ViewController.swift */,
+				8AC248D42977218100020E81 /* KeyboardViewController.swift */,
+				8AC248D62977252500020E81 /* BoardViewController.swift */,
+				8AC248D82977361400020E81 /* KeyCell.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +166,9 @@
 				8AC248C22977209000020E81 /* ViewController.swift in Sources */,
 				8AC248BE2977209000020E81 /* AppDelegate.swift in Sources */,
 				8AC248C02977209000020E81 /* SceneDelegate.swift in Sources */,
+				8AC248D92977361400020E81 /* KeyCell.swift in Sources */,
+				8AC248D52977218100020E81 /* KeyboardViewController.swift in Sources */,
+				8AC248D72977252500020E81 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
